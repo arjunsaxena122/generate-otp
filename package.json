@@ -1,5 +1,5 @@
 {
-  "name": "generate-otp",
+  "name": "otp-genius",
   "version": "1.0.0",
   "description": "An npm package to generate a random number OTP.",
   "main": "index.js",
