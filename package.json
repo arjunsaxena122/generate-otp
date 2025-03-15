@@ -1,0 +1,23 @@
+{
+  "name": "generate-otp",
+  "version": "1.0.0",
+  "description": "An npm package to generate a random number OTP.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunsaxena122/generate-otp.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Arjun Saxena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arjunsaxena122/generate-otp/issues"
+  },
+  "homepage": "https://github.com/arjunsaxena122/generate-otp#readme"
+}
