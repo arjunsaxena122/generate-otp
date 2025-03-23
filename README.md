@@ -24,21 +24,25 @@ Generate secure numeric OTPs with ease! 🔐
 
 Install the package via **npm**:
 
-````bash
+```bash
 npm install generate-otp
-````
+```
+
 ---
 
-## 🔥 Usage  
+## 🔥 Usage
 
-**Import the package and generate an OTP:**  
+**Import the package and generate an OTP:**
 
 ```js
-import otpGenerator from 'generate-otp';
+import generateOtp from "generateOtp";
 
 // Generate a 6-digit OTP
-const otp = otpGenerator(6);
 
-console.log(`Your OTP is: ${otp}`);
-
+console.log(`Your OTP is: ${generateOtp.numeric(6)}`);
+console.log(`Your OTP is: ${generateOtp.lowAplha(6)}`);
+console.log(`Your OTP is: ${generateOtp.capsAlpha(6)}`);
+console.log(`Your OTP is: ${generateOtp.lowCapsAplha(6)}`);
+console.log(`Your OTP is: ${generateOtp.lowAplhaNumeric(6)}`);
+console.log(`Your OTP is: ${generateOtp.capsAplhaNumeric(6)}`);
 ```
