@@ -35,7 +35,7 @@ npm install generate-otp
 **Import the package and generate an OTP:**
 
 ```js
-import generateOtp from "generateOtp";
+import generateOtp from "otp-genius";
 
 // Generate a 6-digit OTP
 
