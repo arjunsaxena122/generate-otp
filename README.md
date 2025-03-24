@@ -25,7 +25,7 @@ Generate secure numeric OTPs with ease! 🔐
 Install the package via **npm**:
 
 ```bash
-npm install generate-otp
+npm install otp-genius
 ```
 
 ---
